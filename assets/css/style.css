@@ -99,7 +99,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   align-items: center;
-  margin: 40px;
+  margin-top: 40px;
 }
 .separation__service-para {
   width: 140px;
@@ -262,7 +262,8 @@ body {
 }
 
 .presentation {
-  margin: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
