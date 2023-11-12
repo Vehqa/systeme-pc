@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .button__contact {
@@ -90,6 +91,29 @@ body {
 .hero__text-h2 {
   font-size: 26px;
   color: #FFFFFF;
+}
+
+.separation__service {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 40px;
+}
+.separation__service-para {
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #F5FFF4;
+  color: #46AC34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separation__service-title {
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .services {
@@ -235,4 +259,22 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.presentation {
+  margin: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.presentation__title {
+  font-size: 27px;
+  font-weight: 700;
+}
+.presentation__para {
+  color: #747474;
+  font-weight: 500;
+  max-width: 650px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
