@@ -1,0 +1,22 @@
+@use "../utils/_main" as utils
+
+.header
+    width: 80%
+    display: flex
+    justify-content: space-evenly
+    align-items: center
+    flex-direction: row
+    margin: 40px auto
+    &__nav
+        display: flex
+        &-list
+            display: flex
+            gap: 3rem
+
+.header__nav-a
+    color: utils.$black
+    font-size: 17px
+    font-weight: 500
+    transition: all .50s ease
+    &:hover
+        color: utils.$green

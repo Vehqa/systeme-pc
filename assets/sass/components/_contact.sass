@@ -1,0 +1,52 @@
+@use "../utils/_main" as utils
+
+.contact
+    display: flex
+    width: 80%
+    margin: 0 auto
+    &__infos
+        background-color: utils.$lightGreen
+    &__plan
+        display: flex
+        flex-direction: column
+        width: 100%
+        margin: 40px
+
+.information
+    margin: 40px
+    display: flex
+    flex-direction: column
+    &__title
+        display: flex
+        align-items: center
+        gap: 1rem
+    &__para
+        font-size: 14px
+        color: utils.$grey
+    &__para2
+        font-size: 14px
+        color: utils.$grey
+        font-weight: 700
+    &__hour
+        list-style: none
+        margin-block-start: 0
+        padding-inline-start: 0
+        display: flex
+        flex-direction: column
+        gap: 0.6rem
+
+.horraire
+    color: utils.$grey
+    font-size: 14px
+    font-weight: 600
+    &__green
+        color: utils.$green
+        font-weight: 900
+
+.plan__text-title
+    font-size: 27px
+    font-weight: 700
+
+.plan__text-para
+    font-size: 17px
+    color: utils.$grey

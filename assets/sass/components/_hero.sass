@@ -1,0 +1,27 @@
+@use "../utils/_main" as utils
+
+.hero
+    background-image: url('../../assets/images/bannervector.png')
+    background-repeat: no-repeat
+    background-size: cover
+    width: 80%
+    height: 70vh
+    margin: 0 auto
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    &__text
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__text-title
+        color: utils.$green
+    &__text-para
+        color: utils.$grey
+        font-size: 18px
+    &__text-h2
+        font-size: 26px
+        color: utils.$white
+
+

@@ -1,0 +1,17 @@
+@use "../utils/_main" as utils
+
+.button__contact
+    width: 150px
+    height: 50px
+    background-color: utils.$green
+    border: none
+    color: utils.$white
+    font-family: utils.$font-serif
+    letter-spacing: 0.5px
+    font-size: 15px
+    display: flex
+    align-items: center
+    justify-content: center
+    &:hover 
+        background-color: utils.$darkGreen
+        cursor: pointer
