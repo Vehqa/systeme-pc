@@ -245,6 +245,11 @@ body {
   color: #747474;
 }
 
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
 .footer {
   margin-top: 40px;
   width: 100%;
