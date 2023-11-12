@@ -93,6 +93,11 @@ body {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 850px) {
+  .hero {
+    width: 100%;
+  }
+}
 .separation__service {
   width: 100%;
   display: flex;
@@ -160,6 +165,23 @@ body {
   background-image: cover;
 }
 
+@media only screen and (max-width: 1200px) {
+  .services {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+  .services__text {
+    max-width: 100%;
+  }
+  .services__img {
+    display: none;
+  }
+}
 .contact {
   display: flex;
   width: 80%;
@@ -278,4 +300,10 @@ body {
   font-weight: 500;
   max-width: 650px;
   text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .presentation__para {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
