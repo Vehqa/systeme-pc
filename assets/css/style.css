@@ -64,6 +64,14 @@ body {
   color: #46AC34;
 }
 
+@media only screen and (max-width: 936px) {
+  .header__nav {
+    display: none;
+  }
+  .button__none {
+    display: none;
+  }
+}
 .hero {
   background-image: url("../../assets/images/bannervector.png");
   background-repeat: no-repeat;
