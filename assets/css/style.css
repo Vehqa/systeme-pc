@@ -275,6 +275,9 @@ body {
   .contact__frame {
     height: 35vh;
   }
+  .information {
+    margin-top: 0;
+  }
 }
 .footer {
   margin-top: 40px;
